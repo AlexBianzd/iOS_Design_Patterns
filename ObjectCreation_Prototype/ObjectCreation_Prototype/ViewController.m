@@ -21,10 +21,10 @@
   
   App *app = [App new];
   
-  Computer *macbookair    = [[Computer alloc] init];
-  macbookair.name       = @"macbook air";
-  macbookair.OS        = @"macOS";
-  macbookair.apps      = @[app, @"iMovie", @"GarageBand"];
+  Computer *macbookair   = [[Computer alloc] init];
+  macbookair.name        = @"macbook air";
+  macbookair.OS          = @"macOS";
+  macbookair.apps        = @[app, @"iMovie", @"GarageBand"];
   macbookair.information = @{@"C": app};
   NSLog(@"%@ %@ %@ %@ %@", macbookair, macbookair.name, macbookair.OS, macbookair.apps, macbookair.information);
   
