@@ -7,4 +7,7 @@
    <FileRef
       location = "group:ObjectCreation_FactoryMethod/ObjectCreation_FactoryMethod.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObjectCreation_AbstractFactory/ObjectCreation_AbstractFactory.xcodeproj">
+   </FileRef>
 </Workspace>
