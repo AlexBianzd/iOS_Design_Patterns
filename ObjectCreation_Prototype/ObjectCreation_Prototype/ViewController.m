@@ -26,10 +26,11 @@
   macbookair.OS          = @"macOS";
   macbookair.apps        = @[app, @"iMovie", @"GarageBand"];
   macbookair.information = @{@"C": app};
-  NSLog(@"%@ %@ %@ %@ %@", macbookair, macbookair.name, macbookair.OS, macbookair.apps, macbookair.information);
   
   Computer *macbookpro  = macbookair.copy;
   macbookpro.name       = @"macbook pro";
+  
+  NSLog(@"%@ %@ %@ %@ %@", macbookair, macbookair.name, macbookair.OS, macbookair.apps, macbookair.information);
   NSLog(@"%@ %@ %@ %@ %@", macbookpro, macbookpro.name, macbookpro.OS, macbookpro.apps, macbookpro.information);
 }
 
