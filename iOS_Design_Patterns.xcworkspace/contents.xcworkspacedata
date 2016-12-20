@@ -13,4 +13,7 @@
    <FileRef
       location = "group:ObjectCreation_Builder/ObjectCreation_Builder.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObjectCreation_Singleton/ObjectCreation_Singleton.xcodeproj">
+   </FileRef>
 </Workspace>
