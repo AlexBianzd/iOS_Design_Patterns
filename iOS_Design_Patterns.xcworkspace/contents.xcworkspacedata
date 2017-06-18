@@ -16,4 +16,13 @@
    <FileRef
       location = "group:ObjectCreation_Singleton/ObjectCreation_Singleton.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:InterfaceAdaptation_Adapter/InterfaceAdaptation_Adapter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:InterfaceAdaptation_Bridge/InterfaceAdaptation_Bridge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:InterfaceAdaptation_Facade/InterfaceAdaptation_Facade.xcodeproj">
+   </FileRef>
 </Workspace>
