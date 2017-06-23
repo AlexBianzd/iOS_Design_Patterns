@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CabDriver.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+  CabDriver *driver = [[CabDriver alloc] init];
+  [driver driveToLocation:CGPointMake(100, 100)];
 }
 
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		927E75CA1EFD785C00B520C3 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 927E75C91EFD785C00B520C3 /* Car.m */; };
+		927E75CD1EFD790900B520C3 /* Taximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 927E75CC1EFD790900B520C3 /* Taximeter.m */; };
+		927E75D01EFD795D00B520C3 /* CabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 927E75CF1EFD795D00B520C3 /* CabDriver.m */; };
 		92CC3FE51EF698A700E04130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC3FE41EF698A700E04130 /* main.m */; };
 		92CC3FE81EF698A700E04130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC3FE71EF698A700E04130 /* AppDelegate.m */; };
 		92CC3FEB1EF698A700E04130 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC3FEA1EF698A700E04130 /* ViewController.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		927E75C81EFD785C00B520C3 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		927E75C91EFD785C00B520C3 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		927E75CB1EFD790900B520C3 /* Taximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taximeter.h; sourceTree = "<group>"; };
+		927E75CC1EFD790900B520C3 /* Taximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taximeter.m; sourceTree = "<group>"; };
+		927E75CE1EFD795D00B520C3 /* CabDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabDriver.h; sourceTree = "<group>"; };
+		927E75CF1EFD795D00B520C3 /* CabDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabDriver.m; sourceTree = "<group>"; };
 		92CC3FE01EF698A700E04130 /* InterfaceAdaptation_Facade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceAdaptation_Facade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CC3FE41EF698A700E04130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92CC3FE61EF698A700E04130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +71,12 @@
 				92CC3FE71EF698A700E04130 /* AppDelegate.m */,
 				92CC3FE91EF698A700E04130 /* ViewController.h */,
 				92CC3FEA1EF698A700E04130 /* ViewController.m */,
+				927E75CE1EFD795D00B520C3 /* CabDriver.h */,
+				927E75CF1EFD795D00B520C3 /* CabDriver.m */,
+				927E75C81EFD785C00B520C3 /* Car.h */,
+				927E75C91EFD785C00B520C3 /* Car.m */,
+				927E75CB1EFD790900B520C3 /* Taximeter.h */,
+				927E75CC1EFD790900B520C3 /* Taximeter.m */,
 				92CC3FEC1EF698A700E04130 /* Main.storyboard */,
 				92CC3FEF1EF698A700E04130 /* Assets.xcassets */,
 				92CC3FF11EF698A700E04130 /* LaunchScreen.storyboard */,
@@ -150,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927E75CD1EFD790900B520C3 /* Taximeter.m in Sources */,
 				92CC3FEB1EF698A700E04130 /* ViewController.m in Sources */,
+				927E75D01EFD795D00B520C3 /* CabDriver.m in Sources */,
 				92CC3FE81EF698A700E04130 /* AppDelegate.m in Sources */,
+				927E75CA1EFD785C00B520C3 /* Car.m in Sources */,
 				92CC3FE51EF698A700E04130 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +329,7 @@
 				92CC3FF91EF698A700E04130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
