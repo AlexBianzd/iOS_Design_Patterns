@@ -25,4 +25,13 @@
    <FileRef
       location = "group:InterfaceAdaptation_Facade/InterfaceAdaptation_Facade.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:DecouplingOfObjects_Mediator/DecouplingOfObjects_Mediator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DecouplingOfObjects_Observer/DecouplingOfObjects_Observer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
 </Workspace>
