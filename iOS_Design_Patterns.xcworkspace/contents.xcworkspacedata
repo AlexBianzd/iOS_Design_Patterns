@@ -32,6 +32,12 @@
       location = "group:DecouplingOfObjects_Observer/DecouplingOfObjects_Observer.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:AbstractCollection_Composite/AbstractCollection_Composite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AbstractCollection_Iterator/AbstractCollection_Iterator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:README.md">
    </FileRef>
 </Workspace>
