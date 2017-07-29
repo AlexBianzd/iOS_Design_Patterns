@@ -47,6 +47,15 @@
       location = "group:BehavioralExtension_ChainOfResponsibility/BehavioralExtension_ChainOfResponsibility.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:AlgorithmEncapsulation_TemplateMethod/AlgorithmEncapsulation_TemplateMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AlgorithmEncapsulation_Strategy/AlgorithmEncapsulation_Strategy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AlgorithmEncapsulation_Command/AlgorithmEncapsulation_Command.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:README.md">
    </FileRef>
 </Workspace>
