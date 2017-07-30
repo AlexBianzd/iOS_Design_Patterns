@@ -56,6 +56,12 @@
       location = "group:AlgorithmEncapsulation_Command/AlgorithmEncapsulation_Command.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PerformanceAndObjectAccess_Flyweight/PerformanceAndObjectAccess_Flyweight.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PerformanceAndObjectAccess_Proxy/PerformanceAndObjectAccess_Proxy.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:README.md">
    </FileRef>
 </Workspace>
