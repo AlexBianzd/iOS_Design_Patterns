@@ -62,6 +62,9 @@
       location = "group:PerformanceAndObjectAccess_Proxy/PerformanceAndObjectAccess_Proxy.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:StateOfObject_Memento/StateOfObject_Memento.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:README.md">
    </FileRef>
 </Workspace>
